@@ -1,0 +1,64 @@
+/* JournalPage.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #3b82f6, #22c55e); /* Adjust colors as needed */
+    min-height: 100vh;
+    padding: 1.5rem;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .caption {
+    margin-top: 0.5rem;
+    color: #ffffff; /* Adjust color as needed */
+    text-align: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    background: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #2563eb; /* Darker shade on hover */
+  }
+  
+  .btn-disabled {
+    background: #9ca3af; /* Grey color for disabled button */
+    cursor: not-allowed;
+  }
+  
