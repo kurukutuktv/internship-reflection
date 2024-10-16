@@ -16,7 +16,7 @@ export default function RootLayout({
         <head>
           <title>Reflection Paper - Randy B. Familara</title>
         </head>
-        <body className="bg-gray-100 text-gray-800">
+        <body>
           <div className="navbar bg-base-transparent">
             <div className="navbar-start bg-transparent text-white">
               <div className="flex-1">

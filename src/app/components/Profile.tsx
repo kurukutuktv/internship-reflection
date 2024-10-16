@@ -6,6 +6,7 @@ import {
   FaBookOpen,
   FaCertificate,
 } from "react-icons/fa";
+import { FaThumbsUp, FaThumbsDown, FaTrophy } from "react-icons/fa";
 import { useState } from "react";
 
 const ProfilePage = () => {
@@ -97,6 +98,42 @@ const ProfileContent = () => (
         </a>
       </p>
     </div>
+    <div className="card bg-base-100 shadow-xl transition-transform transform hover:scale-105">
+            <div className="card-body">
+              <h2 className="card-title text-xl font-bold flex items-center">
+                <FaThumbsUp className="mr-2 text-2xl" /> Likes
+              </h2>
+              <ul className="list-disc ml-6 text-lg">
+                <li>Learning new programming languages</li>
+                <li>Teaching and mentoring</li>
+                <li>Collaborating on projects</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl transition-transform transform hover:scale-105">
+            <div className="card-body">
+              <h2 className="card-title text-xl font-bold flex items-center">
+                <FaThumbsDown className="mr-2 text-2xl" /> Dislikes
+              </h2>
+              <ul className="list-disc ml-6 text-lg">
+                <li>Unclear project requirements</li>
+                <li>Negativity in the workplace</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="card bg-base-100 shadow-xl transition-transform transform hover:scale-105">
+            <div className="card-body">
+              <h2 className="card-title text-xl font-bold flex items-center">
+                <FaTrophy className="mr-2 text-2xl" /> Achievements
+              </h2>
+              <ul className="list-disc ml-6 text-lg">
+                <li>Best Programmer 2018</li>
+                <li>Best Thesis 2018</li>
+              </ul>
+            </div>
+          </div>
   </div>
 );
 
